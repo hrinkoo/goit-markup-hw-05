@@ -588,6 +588,31 @@ svg {
   letter-spacing: 0.06em;
   text-transform: capitalize;
 }
+
+.thumb {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+}
+
+.thumb-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  width: 322px;
+
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+  background-color: palevioletred;
+}
+
 /* абзац портфоліо */
 .list-text {
   color: var(--primary-text-color);
