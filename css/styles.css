@@ -279,6 +279,13 @@ svg {
 /* Позиціонування чим ми займаємось (у фото) */
 
 .thumb-features {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+}
+
+.thumb-background {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -633,14 +640,39 @@ svg {
   transform: translate(-50%, -50%);
 
   display: flex;
-  width: 322px;
+  width: 370px;
+  padding: 63px 24px;
 
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
+
+  opacity: 0;
+  /* transition: 250ms opacity linear; */
+}
+
+.thumb-description:hover {
+  opacity: 1;
+}
+
+.thumb::before {
+  content: '';
+  position: absolute;
+
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  opacity: 0;
+}
+
+.thumb:hover::before {
+  opacity: 1;
 }
 
 /* абзац портфоліо */
