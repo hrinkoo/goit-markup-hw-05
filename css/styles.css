@@ -276,6 +276,29 @@ svg {
   display: block;
 }
 
+/* Позиціонування чим ми займаємось (у фото) */
+
+.thumb-features {
+  position: absolute;
+  bottom: 27px;
+  left: 107px;
+
+  display: flex;
+
+  background-color: tan;
+}
+
+.thumb-caption {
+  margin-bottom: 0;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+
 /* Team фон сеції/Фон контейнера для членів команди*/
 
 .team {
@@ -588,6 +611,8 @@ svg {
   letter-spacing: 0.06em;
   text-transform: capitalize;
 }
+
+/* Позиціонування силки портфоліо */
 
 .thumb {
   position: relative;
