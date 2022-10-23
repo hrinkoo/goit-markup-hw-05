@@ -107,9 +107,7 @@ svg {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -169,9 +167,7 @@ svg {
   display: flex;
   align-items: center;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
@@ -221,9 +217,7 @@ svg {
   border-radius: 4px;
   border-color: transparent;
 
-  transition-property: color, background-color, border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, background-color, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-button:hover {
@@ -299,9 +293,7 @@ svg {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 50%;
 
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, background-color, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   background-color: var(--primary-bgr-color);
 }
@@ -540,9 +532,7 @@ svg {
   font-style: normal;
   line-height: 1.71;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
@@ -603,9 +593,7 @@ svg {
 
   color: var(--link-color);
 
-  transition-property: color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-attention:hover,
@@ -649,9 +637,7 @@ svg {
   border-color: transparent;
   padding: 6px 22px;
 
-  transition-property: color, background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, background-color, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-main {
@@ -688,9 +674,7 @@ svg {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .benefits-item:hover {
